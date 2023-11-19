@@ -11,20 +11,36 @@ header{
 
 body{
     background-color:lightgray;
+    font-size: 21px;
 }
 
 main{
     text-align: center;
 }
 
-main button{
-    background-color: dimgray;
-    border-radius: 5px;
+#lookup{
+    background-color: grey;
+}
+#lookup_cities{
+    background-color: aqua;
+    
 }
 
+#country {
+    width: 450px; 
+    padding: 10px; 
+    font-size: 16px; 
+}
 button{
-    width: 100px;
-    height: 30px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    margin-bottom:20px;
+    
+    
 }
 
 table {
@@ -32,6 +48,7 @@ table {
     border-collapse: collapse; 
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 th, td {
