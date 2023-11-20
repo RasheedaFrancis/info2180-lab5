@@ -13,11 +13,9 @@ window.onload = function () {
                 return response.text();
             })
             .then(data => {
-                if (country === "") {
-                    document.getElementById("result").innerHTML = 'Please enter a valid country name.</p>';
-                }else{
+               
                 document.getElementById("result").innerHTML = data;
-                }
+                
             })
             .catch(error => {
                 console.error('Error fetching data:', error.message);
@@ -38,11 +36,8 @@ window.onload = function () {
             })
             .then(data => {
                
-                if (country === "") {
-                    document.getElementById("result").innerHTML = 'Please enter a valid country name.</p>';
-                }else{
                 document.getElementById("result").innerHTML = data;
-                }
+                
             })
             .catch(error => {
                 console.error('Error fetching data:', error.message);
